@@ -1,6 +1,6 @@
 "use client";
 
-import { getExecutionResult, useCodeEditorStore } from "@/store/useCodeEditorStore";
+import { getExecutionResult, useCodeEditorStore } from "../../../store/useCodeEditorStore";
 import { useUser } from "@clerk/nextjs";
 import { useMutation } from "convex/react";
 import { Loader2, Play } from "lucide-react";
